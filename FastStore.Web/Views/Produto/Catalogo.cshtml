@@ -1,0 +1,20 @@
+﻿@model IPagedList<FastStore.Domain.Entidades.Produto>
+@using PagedList;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Catalogo";
+}
+
+<h2>Catalogo de Produtos</h2>
+
+@foreach (var produto in Model)
+{
+    @Html.Partial("_CatalogoResumo", produto)
+}
+
+<div>
+    @Html.PagedListPager(Model, pag => Url.Action("Catalogo", new {pag, cat = Request.QueryString["cat"]}),
+    new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded })
+</div>
+

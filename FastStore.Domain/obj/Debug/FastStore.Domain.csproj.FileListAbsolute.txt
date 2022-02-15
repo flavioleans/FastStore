@@ -1,0 +1,9 @@
+D:\CursoMaciratti\FastStore\FastStore.Domain\bin\Debug\FastStore.Domain.dll
+D:\CursoMaciratti\FastStore\FastStore.Domain\bin\Debug\FastStore.Domain.pdb
+D:\CursoMaciratti\FastStore\FastStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\CursoMaciratti\FastStore\FastStore.Domain\bin\Debug\EntityFramework.dll
+D:\CursoMaciratti\FastStore\FastStore.Domain\obj\Debug\FastStore.Domain.csproj.AssemblyReference.cache
+D:\CursoMaciratti\FastStore\FastStore.Domain\obj\Debug\FastStore.Domain.csproj.CoreCompileInputs.cache
+D:\CursoMaciratti\FastStore\FastStore.Domain\obj\Debug\FastStore.Domain.csproj.CopyComplete
+D:\CursoMaciratti\FastStore\FastStore.Domain\obj\Debug\FastStore.Domain.dll
+D:\CursoMaciratti\FastStore\FastStore.Domain\obj\Debug\FastStore.Domain.pdb

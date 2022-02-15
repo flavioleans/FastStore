@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FDZzLJLmbXu0A/JT9439k2OegmbONfvRxZTC39Mfm2YJc5QtbR4DbO5IHAQ9Y+83EIZta3I01x7h8u/ECAO9zQ==",
+  "success": true,
+  "projectFilePath": "D:\\CursoMaciratti\\FastStore\\FastStore.Domain\\FastStore.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fvo_l\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

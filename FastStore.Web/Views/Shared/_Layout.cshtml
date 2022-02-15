@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <title>@ViewBag.Title - FastStore</title>
+</head>
+<body>
+    <div class="navbar navbar-inverse" role="navigation">
+        <a class="navbar-brand" href="#">FASTSTORE</a>@Html.Partial("_Login")
+        @Html.Action("ResumoCarrinho", "Carrinho")
+    </div>
+    <div class="row panel">
+        <div id="categorias" class="col-xs-3">
+            @Html.Action("Menu", "Navega")
+        </div>
+        <div class="col-xs-8">
+            @if (TempData["Mensagem"] != null)
+            {
+                <div class="alert-success">@TempData["Mensagem"]</div>
+            }
+            @RenderBody()
+        </div>
+    </div>
+</body></html>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<FastStore.Domain.Entidades.Usuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Login)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Senha)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Login)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Senha)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Usuarioid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Usuarioid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Usuarioid })
+        </td>
+    </tr>
+}
+
+</table>
+
+<p>
+    @Html.ActionLink("Retornar", "MenuAdmin", "Admin")
+</p>
